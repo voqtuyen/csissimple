@@ -106,9 +106,15 @@
 ### Generalization
 - Generalization helps use to reduce redundancy (DRY). Generalization is the process of extracting shared characteristics (attributes, methods) from two or more classes, and combining them into a generalized super class.
 
-- UML class diagram demonstration of *Generalization*
+- Generalization can be achieved by classses through inheritance. You can have 2 classes: a parent and a child class. 
+    - When a child class inherits from a parent class, it has the attributes and behaviors of the parent class. 
+    - The child classes can also have additional attributes and behaviors which allows them ti be more specialized.
+- UML class diagram demonstration of *Generalization* via inheritance
 
-    <img src="assets/composition.png" alt="right" align="middle" width="40%" height="40%">
+    <img src="assets/generalization_uml.png" alt="right" align="middle" width="40%" height="40%">
+
+    - The upward arrow denotes the superclass (parent class) in the relationship.
+    - The tail denotes the subclass (child class).
 
 ## Practice
 - Problem 1: Design UML diagrams representing Car and Driver class?
