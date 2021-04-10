@@ -39,7 +39,7 @@
         - Implement *getter* and *setter* methods to provide access and update of the attributes.
     - Black box thinking: The class interface remains the same, while the internal implementation of the class could be changed.
 - Encapsulation applies to a *Student* class:
-    <img src="assets/encapsulation_uml.png" alt="right" align="middle" width="60%" height="60%">
+    <img src="assets/encapsulation_uml.png" alt="right" align="middle" width="50%" height="50%">
 
     - In this UML class diagram, we prevent direct *get* and *set* to the Student attributes via assignments. This is represented by ```-``` in front of class attributes.
     - Public accesses to getter and setter are represented by ```+``` in front of the methods.
