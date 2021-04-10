@@ -5,7 +5,7 @@
 - Decomposition
 - Generalization
 
-## Design Priciples
+## Design Principles
 
 ### Abstraction
 
