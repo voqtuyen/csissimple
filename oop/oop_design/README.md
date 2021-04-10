@@ -1,4 +1,4 @@
-# Fundamental principles in object-oriented progranming
+# Fundamental design principles in object-oriented programming
 
 - Abstraction
 - Encapsulation
