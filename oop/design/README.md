@@ -104,7 +104,11 @@
             ```
 
 ### Generalization
+- Generalization helps use to reduce redundancy (DRY). Generalization is the process of extracting shared characteristics (attributes, methods) from two or more classes, and combining them into a generalized super class.
 
+- UML class diagram demonstration of *Generalization*
+
+    <img src="assets/composition.png" alt="right" align="middle" width="40%" height="40%">
 
 ## Practice
 - Problem 1: Design UML diagrams representing Car and Driver class?
