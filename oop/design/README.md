@@ -9,7 +9,7 @@
 
 ### Abstraction
 
-<img src="assets/abstraction.jpg" alt="right" align="center" width="70%" height="70%">
+<img src="assets/abstraction.jpg" alt="right" align="middle" width="70%" height="70%">
 
 
 ### Encapsulation
