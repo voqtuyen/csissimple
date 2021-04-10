@@ -53,8 +53,8 @@
 
 
 ## Practice
-- Problem 1: Design a UML class diagram representing a Car?
-- Problem 2: Design a UML class diagram representing the interactions between a Car and a Driver?
+- Problem 1: Design UML diagrams representing Car and Driver class?
+- Problem 2: Design a UML diagram representing the interactions between Car and Driver classes?
 
 
 ## References
