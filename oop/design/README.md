@@ -24,7 +24,7 @@
 
 ### Encapsulation
 
-- Main ideas of encapsulation:
+- Encapsulation involves 3 main ideas:
 
     <img src="assets/encapsulation.png" alt="right" align="middle" width="40%" height="40%">
     
@@ -48,6 +48,31 @@
 
 ### Decomposition
 
+- Decomposition involves 2 main ideas:
+    - Divide the whole thing up into different smaller and manageable parts.
+    - Merge a bunch of separate parts with different functionalities and combining them together to form a whole.
+- 3 types of relationship in decomposition. They define the interactions between the whole and the parts.
+    - Association
+    - Aggregation
+    - Composition
+- Association
+    - There is a loose relationship between two objects. These objects may interact with each other for sometime.
+    - UML class diagram demonstration of *Association* relationship
+
+        <img src="assets/association.png" alt="right" align="middle" width="40%" height="40%">
+
+        - The straight line between two UML objects denotes the relationship is *Association*
+        - ```0..*``` this means that the Sport object is associated with 0 or more Student objects.
+        - Code snippet sample
+            ```python3
+            class Student:
+                def play(sport: Sport):
+                    ...
+            ```
+
+- Aggregation
+
+- Composition
 
 ### Generalization
 
