@@ -1,15 +1,16 @@
-# Fundamental design principles in object-oriented programming
+# Fundamental Design Principles in Object-oriented Programming
 
 - Abstraction
 - Encapsulation
 - Decomposition
 - Generalization
 
-## Design priciples
+## Design Priciples
 
 ### Abstraction
 
 ![Abstraction](assets/abstraction.jpg)
+
 
 ### Encapsulation
 
