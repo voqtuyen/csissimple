@@ -2,8 +2,8 @@
 
 - [Abstraction](#Abstraction)
 - [Encapsulation](#Encapsulation)
-- [Decomposition](Decomposition)
-- [Generalization](Generalization)
+- [Decomposition](#Decomposition)
+- [Generalization](#Generalization)
 
 ## Design Principles
 
