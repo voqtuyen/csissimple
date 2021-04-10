@@ -61,7 +61,7 @@
 
         <img src="assets/association.png" alt="right" align="middle" width="40%" height="40%">
 
-        - The straight line between two UML objects denotes the relationship is *Association*
+        - The straight line between two UML objects denotes the relationship is *Association*. Two objects are completely separate entities. If one object is destroyed, the other can continue to exist. One object does not belong to another.
         - ```0..*``` this means that the Sport object is associated with 0 or more Student objects.
         - Code snippet sample
             ```python3
@@ -69,10 +69,39 @@
                 def play(sport: Sport):
                     ...
             ```
-
 - Aggregation
+    - Aggregation is a "has-a" relationship where a whole has parts that belong to it. The "has-a" relationship from a whole to the parts is considered weak. In other words, parts can belong to the whole, but they can exist independently.
+    - UML class diagram demonstration of *Aggregation* relationship
 
+        <img src="assets/aggregation.png" alt="right" align="middle" width="40%" height="40%">
+
+        - The empty diamond denotes which object is considered the whole and not the part.
+        - Code snippet sample
+            ```python3
+            class PetStore:
+                def __init__(self):
+                    self._pets = []
+                
+                def add(self, pet: Pet):
+                    self._pets.append(pet)
+            ```
 - Composition
+    - Composition is strong "has-a" relationship. The whole can not exist without its parts. 
+        - If it loses any of its parts, the whole ceases to exist.
+        - If the whole is destroyed, all of its parts are destroyed too.
+        - Usually, you can only access the parts through its whole. Contained parts are exclusive to the whole.
+    - UML class diagram demonstration of *Composition* relationship
+
+        <img src="assets/composition.png" alt="right" align="middle" width="40%" height="40%">
+
+        - The filled diamond denotes the whole in the relationship.
+        - The two objects can not exist without each other. The brain is automatically created with the Human. The two parts are tightly dependent and no object can exist without the other.
+        - Code snippet sample
+            ```python3
+            class Human:
+                def __init__(self):
+                    self._brain = Brain()
+            ```
 
 ### Generalization
 
