@@ -9,6 +9,7 @@
 
 ### Abstraction
 
+![Abstraction](assets/abstraction.jpg)
 
 ### Encapsulation
 

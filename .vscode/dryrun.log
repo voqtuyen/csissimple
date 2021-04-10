@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/voqtuyen/Documents/research/me/csissimple'
+echo 'test'
+make: Leaving directory `/Users/voqtuyen/Documents/research/me/csissimple'
+ 
