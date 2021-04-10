@@ -1,9 +1,9 @@
 # Fundamental Design Principles in Object-oriented Programming
 
-- Abstraction
-- Encapsulation
-- Decomposition
-- Generalization
+- [Abstraction](#Abstraction)
+- [Encapsulation](#Encapsulation)
+- [Decomposition](Decomposition)
+- [Generalization](Generalization)
 
 ## Design Principles
 
