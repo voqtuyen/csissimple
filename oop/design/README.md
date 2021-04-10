@@ -9,7 +9,7 @@
 
 ### Abstraction
 
-![Abstraction](assets/abstraction.jpg)
+<img src="assets/abstraction.jpg" alt="right" align="center" width="90%" height="90%">
 
 
 ### Encapsulation
