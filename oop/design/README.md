@@ -38,7 +38,7 @@
         - You prevent outside access to all the attributes, except through specific methods. For example, the 4-scale gpa attribute of *Student* class could not be directly changed to a value of 10.0
         - Implement *getter* and *setter* methods to provide access and update of the attributes.
     - Black box thinking: The class interface remains the same, while the internal implementation of the class could be changed.
-- Encapsulation applies to a *Student* class
+- Encapsulation applies to a *Student* class:
     <img src="assets/encapsulation_uml.png" alt="right" align="middle" width="60%" height="60%">
 
     - In this UML class diagram, we prevent direct *get* and *set* to the Student attributes via assignments. This is represented by ```-``` in front of class attributes.
