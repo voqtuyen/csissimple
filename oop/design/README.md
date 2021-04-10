@@ -113,7 +113,7 @@
 
     <img src="assets/generalization_uml.png" alt="right" align="middle" width="40%" height="40%">
 
-    - The upward arrow denotes the superclass (parent class) in the relationship.
+    - The arrow denotes the superclass (parent class)
     - The tail denotes the subclass (child class).
 
 ## Practice
