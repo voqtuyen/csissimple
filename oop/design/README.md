@@ -26,7 +26,7 @@
 
 - Main ideas of encapsulation:
 
-    <img src="assets/encapsulation.png" alt="right" align="middle" width="60%" height="60%">
+    <img src="assets/encapsulation.png" alt="right" align="middle" width="40%" height="40%">
     
     - Bundle attributes and behaviors that manipulate the attributes together into a self-contained object.
     - Expose certain attributes and behaviors to outside accesses.
@@ -42,8 +42,7 @@
     <img src="assets/encapsulation_uml.png" alt="right" align="middle" width="60%" height="60%">
 
     - In this UML class diagram, we prevent direct *get* and *set* to the Student attributes via assignments. This is represented by ```-``` in front of class attributes.
-    - 
-
+    - Public accesses to getter and setter are represented by ```+``` in front of the methods.
 
 
 ### Decomposition
