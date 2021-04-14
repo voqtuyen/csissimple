@@ -5,12 +5,18 @@
 Linting highlights syntactical and stylistic problems in your Python source code, which oftentimes helps you identify and correct subtle programming errors or unconventional coding practices that can lead to errors. Two most popular python linters: Pylint and Flake8
 
 ### Flake8
-- Flask8 is a simple wrapper around Pyflakes, pycodestyle and mccabe
+Flask8 is a simple wrapper around pyflakes, pycodestyle and mccabe
 
-|              flake8             |
-|-------------|----------|--------|
-| pycodestyle | pyflakes | mccabe |
+- Install `Flake8`
 
+```bash
+pip install flake8
+```
+- Add an extension for the `pycodestyle` tool to flake8
+  
+```bash
+pip install flake8-docstrings
+```
 
 ### Pylint
 
