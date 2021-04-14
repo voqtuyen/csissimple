@@ -94,6 +94,7 @@ It’s highly configurable, having special pragmas to control its errors and war
 Refer to official document from Microsoft: https://code.visualstudio.com/docs/python/linting
 
 ### Make-based Utility
+What is make? http://cs.boisestate.edu/~alark/cs253/notes/make_utility.pdf
 
 ```make
 .PHONY all venv
