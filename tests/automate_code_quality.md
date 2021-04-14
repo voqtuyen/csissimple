@@ -11,7 +11,7 @@ Flask8 is a simple wrapper around pyflakes, pycodestyle and mccabe
     ```bash
     pip install flake8
     ```
-- Add an extension for the `pycodestyle` tool to flake8
+- Add an extension for the `pycodestyle` (doc strings) tool to flake8
 
     - Install `flake8-docstrings`
         ```bash
@@ -21,7 +21,19 @@ Flask8 is a simple wrapper around pyflakes, pycodestyle and mccabe
         ```bash
         flake8 --docstring-convention google .
         ```
+- Add an extension for `pep8-naming` (naming convention) tool to flake8
+    ```bash
+    pip install pep8-naming
+    ```
+- Run flake8:
+```bash
+flake8 .    # lint the whole project
+```
 
+```bash
+flake test.py   # lint test.py file
+```
+ 
 ### Pylint
 
 # Code Formatting
