@@ -33,6 +33,14 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
     ```
  
 ### Pylint
+- Install `Pylint`
+    ```bash
+    pip install pylint
+    ```
+- Run `Pylint`
+    ```
+    pylint src    # lint the src directory
+    ```
 
 # Code Formatting
 
