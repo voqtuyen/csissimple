@@ -1,7 +1,7 @@
 # Python Code Review Automation
 
 
-## Tools
+## Code Review Tools
 ### Code Analysis/Linting
 - Linting highlights syntactical and stylistic problems in your Python source code, which oftentimes helps you identify and correct subtle programming errors or unconventional coding practices that can lead to errors
 - Two most popular python linters: Pylint and Flake8
@@ -44,7 +44,10 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
     ```
 
 ### Code Formatting
+#### Black
 
+
+## Code Review Automation
 
 
 ## Reference
