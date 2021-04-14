@@ -27,10 +27,7 @@ Flask8 is a simple wrapper around pyflakes, pycodestyle and mccabe
     ```
 - Run flake8:
 ```bash
-flake8 .    # lint the whole project
-```
-
-```bash
+flake8 .        # lint the whole project
 flake test.py   # lint test.py file
 ```
  
