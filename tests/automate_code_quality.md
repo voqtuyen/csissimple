@@ -73,17 +73,18 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
       ```
 
 #### yapf
-Yet Another Python Formatter (yapf) is a python formatter from Google based on ideas from gofmt. This is also more configurable and a good option for automatic code formatting.
+- Yet Another Python Formatter (yapf) is a python formatter from Google based on ideas from gofmt. In essence, the algorithm takes the code and reformats it to the best formatting that conforms to the style guide, even if the original code didn't violate the style guide. This is also more configurable and a good option for automatic code formatting. 
+- yapf docs: [reference](https://github.com/google/yapf)
+- Usage
+  - Install `yapf`
+      ```bash
+      pip install yapf
+      ```
 
-- Install `yapf`
-    ```bash
-    pip install yapf
-    ```
-
-- Run `yapf` formatter
-    ```bash
-    yapf [file/dir] --in-place
-    ```
+  - Run `yapf` formatter
+      ```bash
+      yapf [file/dir] --in-place
+      ```
 
 ## Code Review Automation
 
