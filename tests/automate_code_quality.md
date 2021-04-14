@@ -96,6 +96,7 @@ Refer to official document from Microsoft: https://code.visualstudio.com/docs/py
 ### Make-based Utility
 
 ```make
+.PHONY all venv
 ```
 
 
