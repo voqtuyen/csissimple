@@ -91,7 +91,7 @@ It’s highly configurable, having special pragmas to control its errors and war
 
 ## Code Review Automation
 ### VS Code Extension
-
+Refer to official document from Microsoft: https://code.visualstudio.com/docs/python/linting
 
 ### Make-based Utility
 
