@@ -8,10 +8,9 @@ Linting highlights syntactical and stylistic problems in your Python source code
 Flask8 is a simple wrapper around pyflakes, pycodestyle and mccabe
 
 - Install `Flake8`
-
-```bash
-pip install flake8
-```
+    ```bash
+    pip install flake8
+    ```
 - Add an extension for the `pycodestyle` tool to flake8
 
     - Install `flake8-docstrings`
