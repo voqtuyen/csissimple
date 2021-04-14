@@ -43,7 +43,7 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
     pylint src    # lint the src directory
     ```
 
-### Code Formatting
+### Automatic Code Formatting
 #### Black
 - Install `black`
     ```bash
