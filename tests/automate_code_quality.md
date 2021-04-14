@@ -34,6 +34,9 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
     ```
  
 #### Pylint
+Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions.
+
+It’s highly configurable, having special pragmas to control its errors and warnings from within your code, as well as from an extensive configuration file
 - Install `Pylint`
     ```bash
     pip install pylint
