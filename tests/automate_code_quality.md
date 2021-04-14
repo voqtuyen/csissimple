@@ -45,17 +45,18 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
 
 ### Automatic Code Formatting
 #### Black
-Black is a PEP 8 compliant opinionated formatter. Black reformats entire files in place. It is not configurable. It doesn't take previous formatting into account. Your main option of configuring Black is that it doesn't reformat blocks that start with # fmt: off and end with # fmt: on, or lines that ends with # fmt: skip. Pay attention that # fmt: on/off have to be on the same level of indentation
+- Black is a PEP 8 compliant opinionated formatter. Black reformats entire files in place. It is not configurable. It doesn't take previous formatting into account. Your main option of configuring Black is that it doesn't reformat blocks that start with # fmt: off and end with # fmt: on, or lines that ends with # fmt: skip. Pay attention that # fmt: on/off have to be on the same level of indentation
+- Back code style: [reference](https://github.com/psf/black/blob/master/docs/the_black_code_style.md)!
+- Usage
+  - Install `black`
+      ```bash
+      pip install black
+      ```
 
-- Install `black`
-    ```bash
-    pip install black
-    ```
-
-- Run `black` formatter
-    ```bash
-    black [file/dir]
-    ```
+  - Run `black` formatter
+      ```bash
+      black [file/dir]
+      ```
 
 #### Autopep8
 - Install `autopep8`
