@@ -13,15 +13,15 @@ Flask8 is a simple wrapper around pyflakes, pycodestyle and mccabe
 pip install flake8
 ```
 - Add an extension for the `pycodestyle` tool to flake8
-  
-    ```bash
-    pip install flake8-docstrings
-    ```
-    - You can set the pydocstyle convention at the command line. Possible conventions are: pep257, numpy, google.
 
-    ```bash
-    flake8 --docstring-convention google .
-    ```
+    - Install `flake8-docstrings`
+        ```bash
+        pip install flake8-docstrings
+        ```
+    - You can set the pydocstyle convention at the command line. Possible conventions are: pep257, numpy, google.
+        ```bash
+        flake8 --docstring-convention google .
+        ```
 
 ### Pylint
 
