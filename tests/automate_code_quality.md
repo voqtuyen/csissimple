@@ -45,7 +45,39 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
 
 ### Code Formatting
 #### Black
+- Install `black`
+    ```bash
+    pip install black
+    ```
 
+- Run `black` formatter
+    ```bash
+    black [file/dir]
+    ```
+
+#### Autopep8
+- Install `autopep8`
+    ```bash
+    pip install autopep8
+    ```
+
+- Run `autopep8` formatter
+    ```bash
+    autopep8 [file/dir] --in-place
+    ```
+
+#### yapf
+Yet Another Python Formatter (yapf) is a python formatter from Google based on ideas from gofmt. This is also more configurable and a good option for automatic code formatting.
+
+- Install `yapf`
+    ```bash
+    pip install yapf
+    ```
+
+- Run `yapf` formatter
+    ```bash
+    yapf [file/dir] --in-place
+    ```
 
 ## Code Review Automation
 
