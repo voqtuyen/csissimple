@@ -26,10 +26,10 @@ Flask8 is a simple wrapper around pyflakes, pycodestyle and mccabe
     pip install pep8-naming
     ```
 - Run flake8:
-```bash
-flake8 .        # lint the whole project
-flake test.py   # lint test.py file
-```
+    ```bash
+    flake8 .        # lint the whole project
+    flake test.py   # lint test.py file
+    ```
  
 ### Pylint
 
