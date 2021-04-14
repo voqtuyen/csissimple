@@ -1,11 +1,12 @@
 # Python Code Review Automation
 
 
-## Code Analysis/Linting
+## Tools
+### Code Analysis/Linting
 - Linting highlights syntactical and stylistic problems in your Python source code, which oftentimes helps you identify and correct subtle programming errors or unconventional coding practices that can lead to errors
 - Two most popular python linters: Pylint and Flake8
 
-### Flake8
+#### Flake8
 Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
 
 - Install `Flake8`
@@ -32,7 +33,7 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
     flake test.py   # lint test.py file
     ```
  
-### Pylint
+#### Pylint
 - Install `Pylint`
     ```bash
     pip install pylint
@@ -42,7 +43,7 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
     pylint src    # lint the src directory
     ```
 
-# Code Formatting
+### Code Formatting
 
 
 
