@@ -45,9 +45,7 @@ Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
 
 ### Automatic Code Formatting
 #### Black
-```python3
 Black is a PEP 8 compliant opinionated formatter. Black reformats entire files in place. It is not configurable. It doesn't take previous formatting into account. Your main option of configuring Black is that it doesn't reformat blocks that start with # fmt: off and end with # fmt: on, or lines that ends with # fmt: skip. Pay attention that # fmt: on/off have to be on the same level of indentation
-```
 
 - Install `black`
     ```bash
