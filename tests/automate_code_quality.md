@@ -6,7 +6,7 @@
 - Two most popular python linters: Pylint and Flake8
 
 ### Flake8
-Flask8 is a simple wrapper around pyflakes, pycodestyle and mccabe
+Flake8 is a simple wrapper around pyflakes, pycodestyle and mccabe
 
 - Install `Flake8`
     ```bash
