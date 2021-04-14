@@ -27,7 +27,6 @@
 
 
 ## Writing Makefiles
-### What Makefiles contain
 
 - A simple makefile consists of “rules” with the following shape:
 
@@ -42,18 +41,7 @@
     - *prerequisites*: A prerequisite is a file that is used as input to create the target. A target often depends on several files
     - *recipe*: A recipe is an action that make carries out. A recipe may have more than one command, either on the same line or each on its own line
 
-### PHONY targets
 
--
-
-### Add comment to Makefiles
-
-- 
-
-### Splitting long lines
--
-
-### 
 
 
 ## Reference
