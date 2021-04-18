@@ -95,6 +95,7 @@ Refer to official document from Microsoft: https://code.visualstudio.com/docs/py
 
 ### Make-based Utility
 What is make? http://cs.boisestate.edu/~alark/cs253/notes/make_utility.pdf
+Below is an example of Makefile for python project
 
 ```make
 # Change the shell
