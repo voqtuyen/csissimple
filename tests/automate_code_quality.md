@@ -97,7 +97,40 @@ Refer to official document from Microsoft: https://code.visualstudio.com/docs/py
 What is make? http://cs.boisestate.edu/~alark/cs253/notes/make_utility.pdf
 
 ```make
-.PHONY all venv
+# Change the shell
+SHELL := /bin/bash
+
+# Phony targets are targets that do not correspond to a file
+.PHONY: clean venv build docs help
+
+# build has a dependency list
+build: clean venv docs
+    # To suppress echoing commands to shell, add @ to beginning of each command
+    # Continued onto another line by putting a \ at the end of the first line
+    # Each command must be indented with a tab
+	@echo "Build package for development"; \
+	source venv/bin/activate; \
+	python setup.py install;
+
+clean:
+	@echo "Clean development environment"; \
+	rm -rf build; \
+	rm -rf dist; \
+	rm -rf *.egg-info; \
+	rm -rf venv;
+
+venv:
+	@echo "Create and build virtualenv for development"; \
+	virtualenv -p python3 venv; \
+	source venv/bin/activate; \
+	pip install -r requirements.txt;
+
+docs:
+	@echo "Build docs for thorai project";
+
+help:
+	@echo "Supported commands"; \
+	cat Makefile;
 ```
 
 
@@ -105,3 +138,4 @@ What is make? http://cs.boisestate.edu/~alark/cs253/notes/make_utility.pdf
 - https://speakerdeck.com/pycon2018/kyle-knapp-automating-code-quality?slide=15
 - https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/Python.html
 - https://code.visualstudio.com/docs/python/linting
+- https://www.gnu.org/software/make/manual/html_node/index.html#SEC_Contents
