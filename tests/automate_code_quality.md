@@ -126,7 +126,7 @@ venv:
 	pip install -r requirements.txt;
 
 docs:
-	@echo "Build docs for thorai project";
+	@echo "Build docs for project";
 
 help:
 	@echo "Supported commands"; \
