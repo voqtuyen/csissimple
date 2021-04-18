@@ -113,6 +113,10 @@ build: clean venv docs
 	python setup.py install;
 
 clean:
+	# When it is time to execute commands to update a target, they are executed by making a new subshell for each line.
+	# For ex: shell commands such as cd that set variables local to each process will not affect the following command lines.
+	# If you want to use cd to affect the next command, put the two on a single line with a semicolon between them. 
+	# Then make will consider them a single command and pass them, together, to a shell which will execute them in sequence
 	@echo "Clean development environment"; \
 	rm -rf build; \
 	rm -rf dist; \
@@ -139,3 +143,4 @@ help:
 - https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/Python.html
 - https://code.visualstudio.com/docs/python/linting
 - https://www.gnu.org/software/make/manual/html_node/index.html#SEC_Contents
+- https://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_5.html
