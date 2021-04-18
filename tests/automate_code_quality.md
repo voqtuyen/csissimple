@@ -142,7 +142,7 @@ help:
 Build a make utility for your own project which supports
 - Create a new dev environment target
 - Code linting and formatting target
-- Other targets such as help, build, clean,...
+- Other targets such as help, docs, build, clean,...
 
 ## Reference
 - https://speakerdeck.com/pycon2018/kyle-knapp-automating-code-quality?slide=15
