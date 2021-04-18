@@ -123,7 +123,7 @@
 ## Resolve problem
 - UML diagrams representing Car and Driver
 
-    <img src="assets/car_driver_uml.png" alt="right" align="middle" width="40%" height="40%">
+    <img src="assets/car_driver_uml.png" alt="right" align="middle" width="80%" height="80%">
 
 ## References
 - https://www.coursera.org/learn/object-oriented-design
