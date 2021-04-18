@@ -121,7 +121,9 @@
 - Problem 2: Design a UML diagram representing the interactions between Car and Driver classes?
 
 ## Resolve problem
-    <img src="assets/car_driver_thanh_uml.png" alt="right" align="middle" width="40%" height="40%">
+- UML diagrams representing Car and Driver
+
+    <img src="assets/car_driver_uml.png" alt="right" align="middle" width="40%" height="40%">
 
 ## References
 - https://www.coursera.org/learn/object-oriented-design
