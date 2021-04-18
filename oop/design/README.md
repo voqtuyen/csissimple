@@ -61,7 +61,7 @@
 
         <img src="assets/association.png" alt="right" align="middle" width="40%" height="40%">
 
-        - The straight line between two UML objects denotes the relationship is *Association*. Two objects are completely separate entities. If one object is destroyed, the other can continue to exist. One object does not belong to another.
+        - The straight line between two UML objects denote the relationship is *Association*. Two objects are completely separate entities. If one object is destroyed, the other can continue to exist. One object does not belong to another.
         - ```0..*``` this means that the Sport object is associated with 0 or more Student objects.
         - Code snippet sample
             ```python3
@@ -108,7 +108,7 @@
 
 - Generalization can be achieved by classses through inheritance. You can have 2 classes: a parent and a child class. 
     - When a child class inherits from a parent class, it has the attributes and behaviors of the parent class. 
-    - The child classes can also have additional attributes and behaviors which allows them ti be more specialized.
+    - The child classes can also have additional attributes and behaviors which allows them to be more specialized.
 - UML class diagram demonstration of *Generalization* via inheritance
 
     <img src="assets/generalization_uml.png" alt="right" align="middle" width="40%" height="40%">
@@ -119,6 +119,15 @@
 ## Practice
 - Problem 1: Design UML diagrams representing Car and Driver class?
 - Problem 2: Design a UML diagram representing the interactions between Car and Driver classes?
+
+- Abstraction:
+    <img src="assets/problem_abstraction.png" alt="right" align="middle" width="40%" height="40%">
+- Encapsulation:
+    <img src="assets/problem_encapsulation.png" alt="right" align="middle" width="40%" height="40%">
+- Decomposition
+    <img src="assets/problem_decomposition.png" alt="right" align="middle" width="40%" height="40%">
+- Generalization
+    <img src="assets/problem_generalization.png" alt="right" align="middle" width="40%" height="40%">
 
 
 ## References
