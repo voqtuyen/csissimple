@@ -105,9 +105,9 @@ SHELL := /bin/bash
 
 # build has a dependency list
 build: clean venv docs
-    # To suppress echoing commands to shell, add @ to beginning of each command
-    # Continued onto another line by putting a \ at the end of the first line
-    # Each command must be indented with a tab
+    	# To suppress echoing commands to shell, add @ to beginning of each command
+    	# Continued onto another line by putting a \ at the end of the first line
+    	# Each command must be indented with a tab
 	@echo "Build package for development"; \
 	source venv/bin/activate; \
 	python setup.py install;
