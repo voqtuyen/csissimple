@@ -61,7 +61,7 @@
 
         <img src="assets/association.png" alt="right" align="middle" width="40%" height="40%">
 
-        - The straight line between two UML objects denote the relationship is *Association*. Two objects are completely separate entities. If one object is destroyed, the other can continue to exist. One object does not belong to another.
+        - The straight line between two UML objects denotes the relationship is *Association*. Two objects are completely separate entities. If one object is destroyed, the other can continue to exist. One object does not belong to another.
         - ```0..*``` this means that the Sport object is associated with 0 or more Student objects.
         - Code snippet sample
             ```python3
@@ -127,7 +127,7 @@
 - Decomposition
     <img src="assets/problem_decomposition.png" alt="right" align="middle" width="70%" height="70%">
 - Generalization
-    <img src="assets/problem_generalization.png" alt="right" align="middle" width="20%" height="40%">
+    <img src="assets/problem_generalization.png" alt="right" align="middle" width="30%" height="40%">
 
 
 ## References
