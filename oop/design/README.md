@@ -120,15 +120,6 @@
 - Problem 1: Design UML diagrams representing Car and Driver class?
 - Problem 2: Design a UML diagram representing the interactions between Car and Driver classes?
 
-- Abstraction:
-    <img src="assets/problem_abstraction.png" alt="right" align="middle" width="70%" height="70%">
-- Encapsulation:
-    <img src="assets/problem_encapsulation.png" alt="right" align="middle" width="70%" height="70%">
-- Decomposition
-    <img src="assets/problem_decomposition.png" alt="right" align="middle" width="70%" height="70%">
-- Generalization
-    <img src="assets/problem_generalization.png" alt="right" align="middle" width="30%" height="40%">
-
 
 ## References
 - https://www.coursera.org/learn/object-oriented-design
