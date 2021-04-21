@@ -99,7 +99,7 @@ Below is an example of Makefile for python project
 
 ```make
 # Change the shell
-SHELL := /bin/bash
+SHELL:= /bin/bash
 
 # Phony targets are targets that do not correspond to a file
 .PHONY: clean venv build docs help
