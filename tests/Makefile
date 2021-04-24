@@ -1,5 +1,5 @@
 SHELL := /bin/bash # change shell
-PYTHON = python3 # difine python varible
+PYTHON = python3 # difine python variable
 .PHONY = help setup test run clean
 
 # Defining an array variable
