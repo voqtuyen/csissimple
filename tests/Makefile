@@ -27,10 +27,11 @@ install:
 build: clean venv help
 	@echo "Build package for development"; \
 
-convention:
+refactor:
 	@echo 'Refactor your file according to Flake8 !'
 	flake8 .
-	black ${FILES}	
+	black ${FILES}
+
 run:
 	${PYTHON} ${FILES}
 
