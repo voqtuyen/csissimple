@@ -7,7 +7,7 @@ FILES = app.py
 .DEFAULT_GOAL = help
 
 help:
-	@echo "----------------------------helps----------------------------"
+	@echo "------------------------------helps------------------------------"
 	@echo "------To setup virtualenv for the project type 'make venv'-------"
 	@echo "------To build the project type 'make build'---------------------"
 	@echo "------To run the project type 'make run'-------------------------"
