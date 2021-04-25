@@ -7,11 +7,14 @@ FILES = app.py
 .DEFAULT_GOAL = help
 
 help:
-	@echo "----------------------------Documents----------------------------"
+	@echo "----------------------------helps----------------------------"
 	@echo "------To setup virtualenv for the project type 'make venv'-------"
 	@echo "------To build the project type 'make build'---------------------"
 	@echo "------To run the project type 'make run'-------------------------"
-	@echo "-----------------------------------------------------------------"
+	@echo "------To run the project type 'make run'-------------------------"
+	@echo "------To run the project type 'make run'-------------------------"
+	@echo "------To analyse code with Flake8 type 'make linting'------------"
+	@echo "------To format code with Black type 'make formatting'-----------"
 
 venv:
 	@echo "Create and build virtualenv for development"; \
@@ -20,16 +23,22 @@ venv:
 	pip install -r requirements.txt;
 
 install:
-	pip install black
-	pip install flake8
+	pip install black; \
+	pip install flake8; \
 	pip install virtualenv
 
 build: clean venv help
-	@echo "Build package for development"; \
+	@echo "Build package for development"; 
 
-refactor:
-	@echo 'Refactor your file according to Flake8 !'
+refactor: linting formatting
+	@echo 'Refactor your code !'
+
+linting:
+	@echo 'Analyse code for potential errors with Flake8'; \
 	flake8 .
+
+formatting:
+	@echo 'Automatically format your code with black'; \
 	black ${FILES}
 
 run:
@@ -37,7 +46,7 @@ run:
 
 clean:
 	@echo "Clean development environment"; \
-	find . -path "*/*.pyc"  -delete
+	find . -path "*/*.pyc"  -delete; \
 	rm -rf build; \
 	rm -rf dist; \
 	rm -rf *.egg-info; \
