@@ -108,7 +108,7 @@
 
 - Generalization can be achieved by classses through inheritance. You can have 2 classes: a parent and a child class. 
     - When a child class inherits from a parent class, it has the attributes and behaviors of the parent class. 
-    - The child classes can also have additional attributes and behaviors which allows them ti be more specialized.
+    - The child classes can also have additional attributes and behaviors which allows them to be more specialized.
 - UML class diagram demonstration of *Generalization* via inheritance
 
     <img src="assets/generalization_uml.png" alt="right" align="middle" width="40%" height="40%">
