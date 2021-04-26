@@ -120,6 +120,5 @@
 - Problem 1: Design UML diagrams representing Car and Driver class?
 - Problem 2: Design a UML diagram representing the interactions between Car and Driver classes?
 
-
 ## References
 - https://www.coursera.org/learn/object-oriented-design
