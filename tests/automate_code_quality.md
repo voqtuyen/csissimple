@@ -147,7 +147,7 @@ Build a make utility for your own project which supports
 
 ## Reference
 - https://speakerdeck.com/pycon2018/kyle-knapp-automating-code-quality?slide=15
-- https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/Python.html
+- https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/Python/
 - https://code.visualstudio.com/docs/python/linting
 - https://www.gnu.org/software/make/manual/html_node/index.html#SEC_Contents
 - https://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_5.html
