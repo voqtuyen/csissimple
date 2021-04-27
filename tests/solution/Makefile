@@ -1,6 +1,6 @@
 SHELL:= /bin/bash
 
-.PHONY: linting formatting help docs build clean venv
+.PHONY: lint format help docs build clean venv
 
 PYTHON=python3
 
@@ -10,18 +10,13 @@ PYTHON=python3
 ACT=source venv/bin/activate
 
 build:
-	@. venv/bin/activate; \
-	echo "Build pylint package"; \
-	pip install pylint; \
-	echo "--> Done"; \
-	echo "Build yapf package"; \
-	pip install yapf; \
-	echo "--> Done";
+	@echo "-----------------BUILD-------------------"
 
 
 venv:
 	@echo "Create new environment"; \
 	${PYTHON} -m venv venv; \
+	pip install -r requirements.txt; \
 	echo "--> Done";
 
 
@@ -48,7 +43,7 @@ clean:
 	rm -r venv
 
 
-linting:
+lint:
 	echo "------------Linting--------------"; \
 	${ACT}; \
 	FILES=$$(find ./person -iname "*.py"); \
@@ -56,7 +51,7 @@ linting:
 	pylint $${FILES};
 
 
-formatting:
+format:
 	echo "----------Auto-Formating---------"; \
 	$(ACT); \
 	yapf --recursive ./person --in-place;
